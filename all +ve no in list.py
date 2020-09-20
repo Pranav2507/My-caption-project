@@ -1,0 +1,5 @@
+input_string = input("Enter a list elements separated by space ")
+mylist = input_string.split()
+print("Your given list is ",mylist)
+new_nums = mylist(filter(lambda x:x>0,input_string ))
+print("Positive numbers in the list: ",new_nums)
